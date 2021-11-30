@@ -1,0 +1,69 @@
+body{
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("guinea-pig.jpg");
+    
+}
+a{
+    color: black;
+    text-decoration-line: none;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 50px;
+}
+
+.fenetre{
+    margin-top: 50px;
+    padding: 1vw;
+    border: black solid 3px;
+    background-image: url("aspen-shavings.jpg");
+    border-radius: 10px;
+}
+.menu{
+    position: fixed;
+    width: 14%;
+}
+#titre{
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+.choix{
+    display: flex;
+    justify-content: space-evenly;
+    row-gap: 20px;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.bouton{
+    font-weight: bolder;
+    padding: 5px;
+    margin: 10px;
+    border: black solid 3px;
+    background-color: rgb(238, 137, 101);
+    border-radius: 5px;
+}
+
+.bouton:hover{
+    background-color: rgb(252, 166, 135);
+    cursor: pointer;
+}
+.bouton:active{
+    background-color: rgb(230, 88, 88);
+    border: inset;
+}
+.menu-defilant{
+    display: none;
+}
+@media screen and (max-width: 1100px){
+    .menu{
+        display: none;
+    }
+    .menu-defilant{
+        display: fixed;
+    }
+}
