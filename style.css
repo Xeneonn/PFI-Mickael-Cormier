@@ -70,4 +70,7 @@ a{
     .menu-defilant{
         display: fixed;
     }
+    .fenetre{
+        width: 80%;
+    }
 }
