@@ -71,6 +71,6 @@ a{
         display: fixed;
     }
     .main{
-        grid-template-columns: 1fr 8fr 1fr;
+        grid-template-columns: 1fr 10fr 1fr;
     }
 }
