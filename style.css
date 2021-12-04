@@ -73,4 +73,7 @@ a{
     .main{
         grid-template-columns: 1fr 10fr 1fr;
     }
+    .fenetre{
+        width: 100%;
+    }
 }
