@@ -70,7 +70,7 @@ a{
     .menu-defilant{
         display: fixed;
     }
-    .fenetre{
-        width: 80%;
+    .main{
+        grid-template-columns: 1fr 8fr 1fr;
     }
 }
